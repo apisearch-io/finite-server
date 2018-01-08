@@ -8,6 +8,8 @@ So, in order to help them a little bit, we added here some middleware classes
 created by our team. You can find a little bit more about the ReactPHP project
 in their [website](https://reactphp.org/)
 
+[![Build Status](https://travis-ci.org/apisearch-io/finite-server.svg?branch=master)](https://travis-ci.org/apisearch-io/finite-server)
+
 ## Install
 
 You can install the package by using composer.
