@@ -1,4 +1,4 @@
-## Finite Server for ReactPHP Socket
+# Finite Server for ReactPHP Socket
 
 This is our middleware package for ReactPHP Socket project. In our road to make
 this world a better place, we met ReactPHP. And our lives changed completely. We
@@ -8,15 +8,15 @@ So, in order to help them a little bit, we added here some middleware classes
 created by our team. You can find a little bit more about the ReactPHP project
 in their [website](https://reactphp.org/)
 
-- Install
+## Install
 
 You can install the package by using composer.
 
 ```
-composer apisearch/react-http-middleware-finite-server
+composer apisearch-io/react-socket-middleware-finite-server
 ```
 
-- Finite Server
+## Finite Server
 
 How many iterations should your server deliver?
 This may be a strange question, but remember than between every server
@@ -40,7 +40,7 @@ The wrapper is created by using an extra parameter called $iterations.
 $server = new FiniteServer($socketServer, 1000);
 ```
 
-- Greaceful Finite Server
+## Greaceful Finite Server
 
 What happens if the server itself wants to kill your server? For example, when
 cache changes and want your servers to serve new features as soon as possible.
