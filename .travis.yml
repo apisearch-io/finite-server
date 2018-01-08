@@ -13,10 +13,6 @@ php:
 
 # also test lowest dependencies on PHP 7
 matrix:
-  include:
-    - php: 7.0
-      env:
-        - DEPENDENCIES=lowest
   allow_failures:
     - php: nightly
 
